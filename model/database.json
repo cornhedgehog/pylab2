@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "author_full_name": "Test Author Full Name",
+        "book_name": "Test Book Name",
+        "genre": "love story",
+        "first_publication_date": 2021,
+        "total_page_number": 100
+    },
+    {
+        "id": 2,
+        "author_full_name": "Test Author Full Name 2",
+        "book_name": "Test Book Name 2",
+        "genre": "horror",
+        "first_publication_date": 1999,
+        "total_page_number": 20
+    },
+    {
+        "author_full_name": "Third name",
+        "book_name": "La La La",
+        "genre": "test",
+        "first_publication_date": 1965,
+        "total_page_number": 99,
+        "id": 3
+    },
+    {
+        "author_full_name": "keke",
+        "book_name": "popopo",
+        "genre": "mememe",
+        "first_publication_date": 2012,
+        "total_page_number": 12,
+        "id": 4
+    },
+    {
+        "author_full_name": "Unknown",
+        "book_name": "Good Book",
+        "genre": "fiction",
+        "first_publication_date": -2500,
+        "total_page_number": 888,
+        "id": 5
+    }
+]
