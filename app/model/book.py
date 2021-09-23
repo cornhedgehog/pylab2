@@ -1,7 +1,7 @@
 import json
 from flask_restx import api
 
-DB_PATH = 'model/database.json'
+DB_PATH = 'app/model/database.json'
    
 class BookDAO(object):
     def __init__(self):

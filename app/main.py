@@ -1,5 +1,5 @@
-from model.book import BookDAO
-from services.book_service import *
+from app.model.book import BookDAO
+from app.services.book_service import *
 from flask import Flask, jsonify, Blueprint, request
 from flask_restx import Api, Resource, fields
 from flasgger import Swagger

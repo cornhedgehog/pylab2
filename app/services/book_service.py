@@ -1,4 +1,4 @@
-from model.book import BookDAO, get_list
+from app.model.book import BookDAO, get_list
 
 BOOK_PAGE_FIELD = 'total_page_number'
 BOOK_DATE_FIELD = 'first_publication_date'
