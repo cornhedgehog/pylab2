@@ -31,6 +31,7 @@ class BookDAO(object):
         if not book:
             api.abort(404, "Book {} doesn't exist".format(id))
         book.update(data)
+        self.update_db()
         return book
 
     def delete(self, id):
@@ -38,6 +39,7 @@ class BookDAO(object):
         if not book:
             api.abort(404, "Book {} doesn't exist".format(id))
         self.books.remove(book)
+        self.update_db()
 
     def update_db(self):
        out_file = open(DB_PATH, "w")
